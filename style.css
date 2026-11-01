@@ -1,0 +1,63 @@
+p {
+    color: blue;
+}
+#title {
+  color: darkgreen;
+  font-size: 28px;
+}
+
+.card {
+  border: 2px solid #333;
+  padding: 16px;
+  width: 300px;
+}
+.hero {
+  background-image: url("me.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+}
+.box {
+  position: relative;
+  border: 2px solid #333;
+  padding: 24px;
+  background: #f4f4f4;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
